@@ -1,0 +1,252 @@
+    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>思念云科技</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(150deg, #e6f7ff 0%, #e0f2f7 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            overflow-x: hidden;
+        }
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .navbar h1 {
+            margin: 0;
+            color: #333;
+        }
+        .navbar nav {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .navbar nav a:hover {
+            background-color: #f0f0f0;
+        }
+        .banner {
+            padding: 100px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+        }
+        .banner h2 {
+            font-size: 48px;
+            margin: 0;
+            color: #333;
+        }
+        .banner p {
+            font-size: 24px;
+            margin: 20px 0 40px;
+            color: #666;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+        .features .feature {
+            flex-basis: calc(33% - 20px);
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .features .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .features .feature h3 {
+            color: #007bff;
+            margin: 20px 0;
+        }
+        .iot-system {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+        }
+        .iot-system h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .iot-system p {
+            margin-bottom: 40px;
+            color: #666;
+        }
+        .contact {
+            background: #e6f7ff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        .contact h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #d9e9f7;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .scroll-down {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #007bff;
+            font-size: 24px;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0) translateX(-50%);
+            }
+            50% {
+                transform: translateY(-10px) translateX(-50%);
+            }
+        }
+        .pricing {
+            padding: 40px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>思念云科技</h1>
+        <nav>
+            <a href="#features">云办公好处</a>
+            <a href="#iotSystem">物联网卡管理系统</a>
+            <a href="#pricing">查看价格</a>
+            <a href="http://8.130.29.143:8989/wx/授权查询.html">正版查询</a>
+            <a href="http://8.130.29.143:8989/wx/login">用户登录</a>
+            <a href="http://8.130.29.143:8989/wx/shangcheng">充值流量</a>
+        </nav>
+    </div>
+    <div class="banner">
+        <h2>引领未来办公</h2>
+        <p>体验科技，享受便捷</p>
+        <div class="scroll-down">&darr;</div>
+    </div>
+    <div class="features" id="features">
+        <div class="feature">
+            <h3>高效协作</h3>
+            <p>随时随地，高效协作，提升团队效率。</p>
+        </div>
+        <div class="feature">
+            <h3>数据安全</h3>
+            <p>企业级安全保障，为您的数据保驾护航。</p>
+        </div>
+        <div class="feature">
+            <h3>灵活定制</h3>
+            <p>根据您的业务需求，提供个性化定制服务。</p>
+        </div>
+    </div>
+    <div class="iot-system" id="iotSystem">
+        <h2>物联网卡管理系统</h2>
+        <p>智能操作，简单操作，同步数据，物联卡商家的必备！</p>
+    </div>
+    <div class="pricing" id="pricing">
+        <h2>查看价格</h2>
+        <p>选择适合您的服务套餐：</p>
+        <table>
+            <tr>
+                <th>价格</th>
+                <th>功能</th>
+            </tr>
+            <tr>
+                <td>¥1.99</td>
+                <td>包含官网首页</td>
+            </tr>
+            <tr>
+                <td>¥5.99</td>
+                <td>包含官网首页＋商城系统</td>
+            </tr>
+            <tr>
+                <td>¥9.99</td>
+                <td>包含官网首页＋商城系统＋iot系统</td>
+            </tr>
+            <tr>
+                <td>¥19.99</td>
+                <td>包含官网首页＋商城系统＋iot登录系统＋iot系统</td>
+            </tr>
+            <tr>
+                <td>¥39.99</td>
+                <td>包含官网首页＋商城系统＋iot登录系统＋iot系统＋iot系统后台</td>
+            </tr>
+            <tr>
+                <td>¥59.99</td>
+                <td>包含官网首页＋商城系统＋iot登录系统＋iot系统＋iot系统后台＋包更新＋运维一个月【用完3.99/月】</td>
+            </tr>
+        </table>
+    </div>
+    <div class="contact" id="contact">
+        <h2>联系我们
+        <h5>QQ：3943639120（客服办公室）
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Resize Image Example</title>
+</head>
+<body>
+    <img src="https://qr.api.cli.im/newqr/create?data=https%3A%2F%2Fqr04.cn%2FEJHPYM&level=H&transparent=&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=2&logourl=&size=220&kid=cliim&time=1727949376&key=4cd33f0c72f028e72de81a10edd02361" alt="思念云24小时客服" width="100" height="100">
+</body>
+</html>
